@@ -51,7 +51,7 @@
 #include <assert.h>
 #if HAVE_ALLOCA_H
 # include <alloca.h>
-#elif HAVE_MALLOC_H
+#elif defined HAVE_MALLOC_H
 # include <malloc.h>
 #endif
 #include <sys/time.h>
